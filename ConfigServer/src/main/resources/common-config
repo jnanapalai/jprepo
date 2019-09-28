@@ -1,0 +1,10 @@
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
+eureka.client.registerWithEureka=true
+eureka.client.fetchRegistry=true
+zuul.routes.Microservices1.path=/micro1/**
+zuul.routes.Microservices1.serviceId=http://localhost:2222/
+
+zuul.routes.Microservices2.path=/micro2/**
+zuul.routes.Microservices2.serviceId=http://localhost:3333/
+zuul.prefix=/api
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
