@@ -1,11 +1,11 @@
 package a;
 
 public class A {
-    private static String name = "test1";
+    private static String name = "test12";
     private static A a = new A();
 
     static {
-        name = "test2";
+        name = "test28";
     }
 
     public A(){
